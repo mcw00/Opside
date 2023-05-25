@@ -67,5 +67,5 @@ Yukarıdaki Node başlatma komutundan sonra sırasıyla
 * Burada iki şekilde dosya yüklemesi yapacağız. 2. resimde gördüğünüz `Upload` kısmını seçerseniz `Winscp` gibi bir program ile sunucunuza girip `deposit_data-[timestamp].json` dosyanızı bilgisayara indirip bu sayfadan yüklemeniz gerekmektedir.
 * `deposit_data-[timestamp].json` dosyanız normal Opside kurulumu normal yaptıysanız `./testnet-auto-install-v2/validator_keys` klasörünün altındadır. Yok eğer Genesis kurulumu yaptıysanız `./testnet-auto-install/validator_keys` klasörünün altındadır. Not: deposit dosyasındaki  `[timestamp]` kısmında rakamlar yazar.
 * Diğer Yönten ise 2. resimde gösterdiğim  `Input ` kısmını seçip Opside kurulumu normal yaptıysanız  `cat ./testnet-auto-install-v2/validator_keys/deposit_data-[timestamp].json ` dosyasının içini kopyalayıp sitede yapıştırmanız gerekmektedir. Yok eğer Genesis kurulumu yaptıysanız  `cat ./testnet-auto-install/validator_keys/deposit_data-[timestamp].json ` dosyasının içini kopyalayıp sitede yapıştırmanız gerekmektedir.
-* Son adımda ise cüzdan bağlayıp  `deposit ` yapınca  `Complete ` yazısını gördüktetn sonra işlem tamamdır. 
+* Son adımda ise cüzdan bağlayıp  `deposit ` yapınca  `Complete ` yazısını gördüktetn sonra işlem tamamdır. Tüm kutuları tıklamayı unutmayın.
 * 12-24 saat içerisinde validatorunuz aktif olacaktır.
