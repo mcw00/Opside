@@ -55,14 +55,17 @@ Yukarıdaki Node başlatma komutundan sonra sırasıyla
 
 # Log kontrol edelim.
 
+* execution client logları
 ```
-# execution client logları
 opside-chain/show-geth-log.sh
+```
 
-# consensus client logları
+* consensus client logları
+```
 opside-chain/show-beaconChain-log.sh
-
-# validatör logları
+```
+* validatör logları
+```
 opside-chain/show-validator-log.sh
 
 ```
