@@ -32,7 +32,7 @@ Cevap: Önce `opside-chain/stop-all.sh` çalıştırın. sonra sırayla aşağı
 
 7. Logda çok sayıda hata olduğunda, kullanıcılar düğümü yeniden başlatmayı seçebilir. Nasıl yapılır?
 Cevap: Adım 1: Stop node `opside-chain/stop-all.sh` 
-Step2: Restart chain servis: 
+Adım 2: Restart chain servis: 
 `testnet-auto-install-v2/opside-chain/start-geth.sh` 
 `testnet-auto-install-v2/opside-chain/start-beaconChain.sh` 
 `testnet-auto-install-v2/opside-chain/start-validator.sh`
