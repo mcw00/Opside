@@ -53,6 +53,20 @@ Yukarıdaki Node başlatma komutundan sonra sırasıyla
 * Şifrenizi tekrar girin. Bu adımda ekrana hiçbir şey yazmaz gibi görünür güvenlik açısından
 * Size vereceği memonicleri kayıt etin. bir sonraki adımda memonicleri isteyecek kayıt ettiğiniz memonicleri yapıştırın.
 
+# Log kontrol edelim.
+
+```
+# execution client logları
+opside-chain/show-geth-log.sh
+
+# consensus client logları
+opside-chain/show-beaconChain-log.sh
+
+# validatör logları
+opside-chain/show-validator-log.sh
+
+```
+
 # Validatör oluşturma
 * Node sync olup olmadığını kontrol edin aşağıdaki log komutlari ile Explorer dan karşılaştırın. [Buradan](https://pre-alpha-beacon.opside.info/blocks)
 
